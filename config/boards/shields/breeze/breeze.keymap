@@ -20,14 +20,14 @@
 // ----------------------------------------------------------------------------------------------------------------------------------
 // |   `   |  1  |  2  |  3    |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   | -/_  | |  \  | HOME | PG UP|
 // |  TAB  |  Q  |  W  |  E    |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |  [   | |  ]  | END  | PG DN|
-// | SHIFT |  A  |  S  |  D    |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |  RET | |     |  UP  |      |
+// |  CTRL |  A  |  S  |  D    |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |  RET | |     |  UP  |      |
 // |  CTRL |  Z  |  X  |  C    |  V   |  B   |                   |  N   |  M    |  ,    |  .   |   /   |  '   | |  L  |  DN  |  R   |
 //                     | LOWER | GUI  | ALT  | SPACE |   | SPACE | BKSP | DEL   | RAISE |
 			bindings = <
 &kp GRAVE &kp N1 &kp N2 &kp N3  &kp N4   &kp N5                       &kp N6   &kp N7   &kp N8    &kp N9  &kp N0   &kp MINUS  &kp BSLH  &kp HOME &kp PG_UP
 &kp TAB   &kp Q  &kp W  &kp E   &kp R    &kp T                        &kp Y    &kp U    &kp I     &kp O   &kp P    &kp LBKT   &kp RBKT  &kp END  &kp PG_DN
-&kp LSHFT &kp A  &kp S  &kp D   &kp F    &kp G                        &kp H    &kp J    &kp K     &kp L   &kp SEMI &kp RET              &kp UP 
-&kp LCTRL &kp Z  &kp X  &kp C   &kp V    &kp B                        &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH &kp APOS   &kp LEFT  &kp DOWN  &kp RIGHT
+&kp LCTRL &kp A  &kp S  &kp D   &kp F    &kp G                        &kp H    &kp J    &kp K     &kp L   &kp SEMI &kp RET              &kp UP 
+&kp LSHFT &kp Z  &kp X  &kp C   &kp V    &kp B                        &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH &kp APOS   &kp LEFT  &kp DOWN  &kp RIGHT
                         &mo 1    &kp LGUI &kp LALT &kp SPACE &kp SPACE &kp BSPC &kp DEL    &mo 2
 			>;
 		};
