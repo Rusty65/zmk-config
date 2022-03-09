@@ -65,7 +65,7 @@
 &trans &trans &trans &trans      &trans  &trans                       &trans  &trans   &trans   &trans  &trans    &trans     &trans &trans &trans
 &trans &trans &trans &trans      &trans  &trans                       &trans  &trans   &trans   &trans  &trans    &trans            &trans        
 &trans &trans &trans &trans      &trans  &trans                       &trans  &trans   &trans   &trans  &trans    &trans     &trans &trans &trans 
-                           &mo ADJUST  &trans  &trans   &kp BSPBC  &trans   &trans  &trans   &trans
+                     &mo ADJUST  &trans  &trans   &kp BSPC   &trans   &trans  &trans   &trans
 			>;
 		};
 	};
