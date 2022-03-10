@@ -40,26 +40,26 @@
 // | CAPS |      | CUT | COPY | PASTE |  {   |                   |  }   |      |      |      |       |       | | Prev  | Vol- | Next | 
 //                     |      |       |      |        |  |  RET  |      |  INS |ADJUST|
 			bindings = <
-&kp F1   &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                       &kp F7   &kp F8   &kp F9  &kp F10   &kp F11 &kp F12 &kp EQUAL  &kp PSCRN     &trans    
-&trans   &trans  &trans  &trans  &trans  &kp LBKT                     &kp RBKT &trans   &trans  &trans    &trans  &trans  &trans     &kp C_MUTE    &kp C_PLAY_PAUSE 
-&trans   &trans  &trans  &trans  &trans  &trans                       &kp LEFT &kp DOWN &kp UP  &kp RIGHT &trans  &trans             &kp C_VOL_UP
-&kp CAPS &trans  &trans  &trans  &trans  &kp LBRC                     &kp RBRC &trans   &trans  &trans    &trans  &trans  &kp C_PREV &kp C_VOL_DN  &kp C_NEXT
+&kp F1   &kp F2      &kp F3  &kp F4  &kp F5  &kp F6                       &kp F7   &kp F8   &kp F9  &kp F10   &kp F11 &kp F12 &kp EQUAL  &kp PSCRN     &trans    
+&trans   &kp LGUI(A) &trans  &trans  &trans  &kp LBKT                     &kp RBKT &trans   &trans  &trans    &trans  &trans  &trans     &kp C_MUTE    &kp C_PLAY_PAUSE 
+&trans   &trans      &kp LGUI(X)  &kp LGUI(C)  &kp LGUI(V)  &trans                       &kp LEFT &kp DOWN &kp UP  &kp RIGHT &trans  &trans             &kp C_VOL_UP
+&kp CAPS &trans      &trans  &trans  &trans  &kp LBRC                     &kp RBRC &trans   &trans  &trans    &trans  &trans  &kp C_PREV &kp C_VOL_DN  &kp C_NEXT
                          &trans  &trans  &trans  &trans     &kp RET   &trans   &kp INS  &mo 3
 			>;
 		};
 
 		raise_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------- 
-// |     |     |     |      |      |        |                   |      |       |       |      |       |       | |     |      |      | 
-// |     |     |     |      |      |        |                   |      |       |       |      |       |       | |     |      |      | 
-// |     |     |     |      |      |        |                   |      |       |       |      |       |       | |     |      |      | 
-// |     |     |     |      |      |        |                   |      |       |       |      |       |       | |     |      |      | 
-//                   |      |      |        |  BKSP  |  |       |      |       |       |
+// | ESC |      |      |      |      |        |                   |      |       |       |      |       |       | |     |      |      | 
+// |     |      |      |      |      |        |                   |      |       |       |      |       |       | |     |      |      | 
+// |     |CTRL-A|      |      |      |        |                   |      |       |       |      |       |       | |     |      |      | 
+// |     |      |CTRL-X|CTRL-C|CTRL-V|        |                   |      |       |       |      |       |       | |     |      |      | 
+//                     |      |      |        |  BKSP  |  |       |      |       |       |
 			bindings = <
-&trans &trans &trans &trans  &trans  &trans                       &trans  &trans   &trans   &trans  &trans    &trans     &trans &trans &trans 
-&trans &trans &trans &trans  &trans  &trans                       &trans  &trans   &trans   &trans  &trans    &trans     &trans &trans &trans
-&trans &trans &trans &trans  &trans  &trans                       &trans  &trans   &trans   &trans  &trans    &trans            &trans        
-&trans &trans &trans &trans  &trans  &trans                       &trans  &trans   &trans   &trans  &trans    &trans     &trans &trans &trans 
+&kp ESC &trans    &trans &trans  &trans  &trans                       &trans  &trans   &trans   &trans  &trans    &trans     &trans &trans &trans 
+&trans  &trans    &trans &trans  &trans  &trans                       &trans  &trans   &trans   &trans  &trans    &trans     &trans &trans &trans
+&trans  &kp LC(A) &trans &trans  &trans  &trans                       &trans  &trans   &trans   &trans  &trans    &trans            &trans        
+&trans  &trans    &kp LC(X) &kp LC(C) &kp LC(V)  &trans                       &trans  &trans   &trans   &trans  &trans    &trans     &trans &trans &trans 
                      &mo 3   &trans  &trans   &kp BSPC   &trans   &trans  &trans   &trans
 			>;
 		};
