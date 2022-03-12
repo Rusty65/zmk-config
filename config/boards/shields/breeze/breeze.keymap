@@ -38,7 +38,7 @@
 // |CMD-TAB|      |     |      |       |  [   |                   |  ]   |      |      |      |       |       | |       | Mute | Play | 
 // |       | CMD-A|     |      |       |      |                   |  L   |  DN  |  UP  |  R   |       |       | |       | Vol+ |      | 
 // |  CAPS | CMD-Z| CUT | COPY | PASTE |  {   |                   |  }   |      |      |      |       |       | | Prev  | Vol- | Next | 
-//                     |      |       |      |        |  |  RET  |      |  INS |ADJUST|
+//                      |      |       |      |        |  |  RET  |      |  INS |ADJUST|
 			bindings = <
 &kp F1      &kp F2      &kp F3     &kp F4     &kp F5    &kp F6                       &kp F7   &kp F8   &kp F9  &kp F10   &kp F11 &kp F12 &kp EQUAL  &kp PSCRN     &trans    
 &kp LG(TAB) &trans      &trans     &trans     &trans    &kp LBKT                     &kp RBKT &trans   &trans  &trans    &trans  &trans  &trans     &kp C_MUTE    &kp C_PLAY_PAUSE 
